@@ -1,5 +1,6 @@
 name: deveji_flutter_app
 description: A custom Deveji Flutter app
+repository: https://github.com/Deveji/Deveji-Mason
 version: 0.1.0
 
 environment:
