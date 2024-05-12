@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "Main",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "--target",
+        "lib/main.dart"
+      ]
+    },
+    {
+      "name": "All Tests",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/test/",
+    }
+  ]
+}
