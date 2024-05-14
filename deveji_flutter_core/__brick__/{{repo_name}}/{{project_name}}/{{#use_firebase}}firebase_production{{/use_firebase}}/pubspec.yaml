@@ -1,0 +1,9 @@
+name: local_firebase_production
+description: Firebase configuration for the production environment
+version: 0.0.1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  firebase_core: ^2.30.0

@@ -1,0 +1,82 @@
+name: {{project_name}}
+description: "{{project_description}}"
+version: 0.1.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6{{#use_firebase}}
+  firebase_analytics: ^10.10.4
+  firebase_core: ^2.30.0
+  firebase_crashlytics: ^3.5.4{{/use_firebase}}
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  fluttertoast: ^8.2.5
+  gap: ^3.0.1
+  intl: ^0.19.0{{#use_firebase}}
+  local_firebase_development:
+    path: ./firebase_development
+  local_firebase_production:
+    path: ./firebase_production
+  local_firebase_staging:
+    path: ./firebase_staging{{/use_firebase}}
+  mockito: ^5.4.4
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  path_provider_platform_interface: ^2.0.1
+  plugin_platform_interface: ^2.0.1
+  very_good_analysis: ^5.1.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/config/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Roboto/Roboto-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto/Roboto-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto/Roboto-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Roboto/Roboto-BlackItalic.ttf
+          weight: 900
+          style: italic

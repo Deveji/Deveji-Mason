@@ -1,0 +1,8 @@
+{
+    "user_client_name": "Example Client",
+    "user_project_description": "An example custom Deveji Flutter app",
+    "user_android_app_id": "com.deveji.example_client",
+    "user_ios_bundle_id": "com.deveji.exampleClient",
+    "user_is_use_firebase": false,
+    "user_firebase_id": ""
+}

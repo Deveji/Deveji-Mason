@@ -10,7 +10,7 @@ There are Pro versions available of each of the bricks. If you want access to th
 
 ## Bricks
 
-[`deveji_flutter_app`][deveji_flutter_app_link] - a Flutter mobile app with the file structure used internally at Deveji
+[`deveji_flutter_core`][deveji_flutter_core_link] - a Flutter mobile app with the file structure used internally at Deveji
 
 <!-- References -->
 [mason_badge]: https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge
@@ -19,4 +19,4 @@ There are Pro versions available of each of the bricks. If you want access to th
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [brickhub_dev_website]: https://brickhub.dev/search?q=deveji
 [deveji_mail]: mailto:info@deveji.com
-[deveji_flutter_app_link]: https://brickhub.dev/bricks/deveji_flutter_app
+[deveji_flutter_core_link]: https://brickhub.dev/bricks/deveji_flutter_core

@@ -1,0 +1,66 @@
+{
+  "@@locale": "en",
+  "onboardingScreen1Title": "Hello \uD83D\uDC4B",
+  "onboardingScreen1Description": "Welcome to {{client_name.titleCase()}}!",
+  "onboardingScreen2Title": "Explore",
+  "onboardingScreen2Description": "Explore the features of our app.",
+  "onboardingScreen3Title": "Get Started",
+  "onboardingScreen3Description": "Get started now!",
+  "skipButton": "SKIP",
+  "@skipButton": {
+    "description": "The button to skip the onboarding screens"
+  },
+  "nextButton": "NEXT",
+  "@nextButton": {
+    "description": "The button to navigate to the next onboarding screen"
+  },
+  "getStartedButton": "GET STARTED NOW",
+  "@getStartedButton": {
+    "description": "The button to navigate to the home screen"
+  },
+  "homeScreenTitle": "Example Home Screen",
+  "@homeScreenTitle": {
+    "description": "The title displayed on the example home screen"
+  },
+  "fontsExampleButton": "Fonts Example",
+  "@fontsExampleButton": {
+    "description": "The button navigating to example screen for fonts"
+  },
+  "themeExampleButton": "Theme Example",
+  "@themeExampleButton": {
+    "description": "The button navigating to example screen for fonts"
+  },
+  "fontsExampleScreenTitle": "Fonts Example",
+  "displayLargeFontExample": "Display Large",
+  "displayMediumFontExample": "Display Medium",
+  "displaySmallFontExample": "Display Small",
+  "headlineLargeFontExample": "Headline Large",
+  "headlineMediumFontExample": "Headline Medium",
+  "headlineSmallFontExample": "Headline Small",
+  "titleLargeFontExample": "Title Large",
+  "titleMediumFontExample": "Title Medium",
+  "titleSmallFontExample": "Title Small",
+  "bodyLargeFontExample": "Body Large",
+  "bodyMediumFontExample": "Body Medium",
+  "bodySmallFontExample": "Body Small",
+  "labelLargeFontExample": "Label Large",
+  "labelMediumFontExample": "Label Medium",
+  "labelSmallFontExample": "Label Small",
+  "themeExampleScreenTitle": "Theme Example",
+  "loadingIndicatorsSectionTitle": "Loading Indicators",
+  "elevatedButtonsSectionTitle": "Elevated Buttons",
+  "textButtonsSectionTitle": "Text Buttons",
+  "outlinedButtonsSectionTitle": "Outlined Buttons",
+  "primaryButtonText": "Primary Button",
+  "secondaryButtonText": "Secondary Button",
+  "tertiaryButtonText": "Tertiary Button",
+  "textFieldsSectionTitle": "Text Fields",
+  "primaryTextFieldLabel": "Primary Text Field",
+  "secondaryTextFieldLabel": "Secondary Text Field",
+  "tertiaryTextFieldLabel": "Tertiary Text Field"{{#use_firebase}},
+  "firebaseExamplesTitle": "Firebase Examples",
+  "crashlyticsExampleButton": "Test Crashlytics",
+  "crashlyticsExampleErrorThrown": "An error was thrown!",
+  "analyticsExampleButton": "Test Analytics",
+  "analyticsExampleEventLogged": "An event was logged!"{{/use_firebase}}
+}

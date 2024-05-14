@@ -1,0 +1,44 @@
+name: deveji_flutter_core
+description: A custom Deveji Flutter app generator with Firebase support, build flavors, and more
+version: 1.0.0
+
+environment:
+  mason: ">=0.1.0-dev.52 <0.1.0"
+
+# Variables specify dynamic values that your brick depends on.
+# Zero or more variables can be specified for a given brick.
+# Each variable has:
+#  * a type (string, number, boolean, enum, array, or list)
+#  * an optional short description
+#  * an optional default value
+#  * an optional list of default values (array only)
+#  * an optional prompt phrase used when asking for the variable
+#  * a list of values (enums only)
+#  * an optional separator (list only)
+vars:
+  user_client_name:
+    type: string
+    description: The client's name (used for the app name and app id)
+    prompt: What is the client's name?
+  user_project_description:
+    type: string
+    description: The description of the project
+    default: An example custom Deveji Flutter app
+    prompt: What is the project description?
+  user_android_app_id:
+    type: string
+    description: The app id for the user app on Android (e.g. com.deveji.example_client) or leave empty
+    prompt: What is the app id for the user app on Android (e.g. com.deveji.example_client) or empty?
+  user_ios_bundle_id:
+    type: string
+    description: The app id for the user app on iOS (e.g. com.deveji.exampleClient) or leave empty
+    prompt: What is the app id for the user app on iOS (e.g com.deveji.exampleClient) or empty?
+  user_is_use_firebase:
+    type: boolean
+    description: Whether to use Firebase
+    default: false
+    prompt: Do you want to use Firebase?
+  user_firebase_id:
+    type: string
+    description: The Firebase id for the user app (e.g. example-client-05-2024)
+    prompt: What is the Firebase id for the user app (e.g. example-client-05-2024) or empty?

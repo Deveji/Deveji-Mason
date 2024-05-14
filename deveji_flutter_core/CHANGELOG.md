@@ -7,6 +7,6 @@ upgrades between versions:
 - fix: Fixed bugs from previous versions
 - bug: Detected bug not addressed in the release
 
-# 0.1.0
+# 1.0.0
 
 Initial public release

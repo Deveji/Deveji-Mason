@@ -1,0 +1,8 @@
+# Mac OS hidden files
+.DS_Store
+
+# Files and directories created by mason
+.mason/
+mason-lock.json
+mason.yaml
+output/
